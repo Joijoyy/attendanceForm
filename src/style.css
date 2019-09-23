@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-color: teal;  */
+    background: url(./pic2.png) no-repeat center fixed;
+    height: 100% !important;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+
+/* GENERAL STYLING */
+.app {
+  /* background: url('./uwat1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  height: 650px;
+  width: 1000px;
+  margin: 0 auto;
+  /* background-color: #ff377e; */
+}
+/* END OF GENERAL STYLING */
+
+
+/* NAVBAR STYLING */
+.navbar {
+  height: 100px;
+  /* background-color: black; */
+}
+
+.navbarlogo {
+  height: 65px;
+  width: 70px;
+  margin-left: 60px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden; 
+}
+
+li {
+  float: left;
+  padding: 14px 16px;
+}
+
+.navbtn {
+  float: right;
+  margin-right: 40px; 
+}
+/* END OF NAVBAR STYLING */
+
+
+/* BUTTON STYLING */
+.navbar-button {
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  border: 0;
+  background-color: rgba(238, 238, 0, 0.808); 
+  color: black;
+  font-weight: bold;
+  margin-top: 12px;
+}
+/* END OF BUTTON STYLING */
+
+
+/* CONTENT STYLING */
+.content {
+  overflow: hidden;
+  height: 430px;
+}
+
+.contentItems {
+  margin: 40px auto;
+  overflow: hidden;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.content-item {
+  float: left;
+}
+/* END OF CONTENT STYLING */
+
+
+/* REGISTER STYLING */
+.register {
+  float: right;
+  height: 300px;
+  width: 320px;
+  background: rgba(100, 102, 102, 0.4);
+}
+
+.register-title {
+  background-color: #fff;
+  color: teal;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid teal;
+}
+
+/* .table {
+  padding: 20px;
+  margin: 0 auto;
+} */
+/* END OF REGISTER STYLING */
+
+
+/* SEARCH STYLING */
+.search-content {
+  background-color: white;
+  width: 420px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid teal; 
+}
+
+.dropdown{
+  width: 420px;
+  height: 150px;
+  background: rgba(100, 102, 102, 0.4); 
+}
+
+.dropdown-name {
+  padding: 7px;
+  border-bottom: 2px solid teal;
+  width: 300px;
+  margin-left: 10px;
+}
+
+/* .search-content-item {
+  margin-top: 10px;
+}
+
+fa-search {
+  margin-left: 30px;
+  font-size: 2em;
+} */
+
+.searchInput {
+  border-radius: 50px;
+  margin-left: 30px;
+  margin-top: 5px;
+  width: 350px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+/* END OF SEARCH STYLING */
+
+
+/* FOOTER STYLING */
+.footer {
+  height: 70px;
+  /* background-color: black; */
+  color: white;
+}
+
+.footer-content h3 {
+  text-align: center;
+  color: orangered !important;
+  margin: 50px;
+}
+/* END OF FOOTER STYLING */
+
+
+/* MODAL STYLING */
+.modal {
+  position: fixed;
+  /* height: 100vh;
+  width: 100%; */
+  height: 600px;
+  width: 1000px;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.795);
+  margin: auto; 
+}
+
+.x-button {
+  color: white;
+  background: none;
+  border: none;
+  float: right;
+  margin: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+/* .show {
+  display: block;
+} */
+
+.form-content {
+  margin: auto;
+  height: 450px;
+  width: 700px;
+  background: white;
+  margin-top: 40px;
+  /* margin-bottom: 70px; */
+}
+
+.form-content h3 {
+  text-align: center;
+  /* margin-top: 15px; */
+  padding: 20px;
+}
+
+.form {
+  margin: 50px;
+  margin-left: 100px;
+}
+
+.input {
+  border: none;
+  margin: 5px;
+  outline: none;
+}
+
+.divider {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  width: 500px;
+}
+
+.form-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+  background: none;
+  margin-top: 25px;
+  margin-left: 40px; 
+}
+/* END OF MODAL STYLING */
